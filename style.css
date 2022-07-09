@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.m-div {
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 645px;
+}
+
+.flexhead {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+
+}
+
+.flexible {
+    width: 45%;
+    padding-right: 5%;
+}
+
+.flexi1 {
+    padding-top: 15%;
+    float: left;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.mybtn {
+    color: white;
+    padding: 15px 40px;
+    border-radius: 6px;
+    background: linear-gradient(45deg, #D700FF, #915BFF);
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.mybtn:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+.sideimg {
+    width: 70%;
+    margin-top: 8%;
+    float: right;
+}
+
+.myaudio {
+    margin-top: -29%;
+    margin-left: 42%;
+    width: 250px;
+    float: left;
+}
